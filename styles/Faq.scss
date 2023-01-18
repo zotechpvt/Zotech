@@ -1,0 +1,17 @@
+.faqcontainer {
+  margin-top: 40px;
+  .mainheading {
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  .questions {
+    color: black;
+    font-weight: lighter;
+    text-shadow: 0 0 1px #000;
+  }
+  .answer {
+    padding: 10px;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+  }
+}

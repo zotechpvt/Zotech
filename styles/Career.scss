@@ -1,0 +1,35 @@
+.career {
+  overflow: hidden;
+  .careerbackground {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    margin-bottom: 12px;
+    background-image: linear-gradient(
+        360deg,
+        rgba(0, 0, 0, 0.01),
+        rgba(0, 0, 0, 0.9)
+      ),
+      url("/assets/careerbg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    .contentbox {
+      padding: 5px;
+      color: white;
+    }
+
+    .contentheading1 {
+      font-weight: bold;
+      font-size: 3rem;
+    }
+
+    .contentheading2 {
+      font-weight: bold;
+      font-size: 2rem;
+    }
+  }
+}

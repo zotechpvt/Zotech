@@ -1,0 +1,55 @@
+.homebackground {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin-bottom: 12px;
+  background-image: linear-gradient(
+      320deg,
+      rgba(0, 0, 0, 0.01),
+      rgba(0, 0, 0, 0.9)
+    ),
+    url("/assets/homebg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+  .contentbox {
+    padding: 5px;
+    color: white;
+  }
+
+  .contentheading1 {
+    font-weight: bold;
+    font-size: 6rem;
+  }
+
+  .contentheading2 {
+    font-weight: bold;
+    font-size: 3rem;
+  }
+
+  .headingtext {
+    padding: 15px;
+    font-size: 1rem;
+    margin-left: 10px;
+  }
+
+  .homebutton {
+    // paddingx: 20px;
+    // paddingy: 10px;
+    color: white;
+    border: 2px solid;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  .homebutton:hover {
+    border: 2px solid white;
+    background-color: white;
+    color: black;
+  }
+}

@@ -1,0 +1,206 @@
+.about {
+  overflow: hidden;
+  .aboutbackground {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    margin-bottom: 12px;
+    background-image: linear-gradient(
+        320deg,
+        rgba(0, 0, 0, 0.01),
+        rgba(0, 0, 0, 0.9)
+      ),
+      url("/assets/aboutbg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    .contentbox {
+      padding: 50px;
+      color: white;
+    }
+
+    .contentheading1 {
+      font-weight: bold;
+      font-size: 3rem;
+    }
+
+    .contentheading2 {
+      font-weight: bold;
+      font-size: 2rem;
+    }
+  }
+
+  .startedcontainer {
+    .startedimage {
+      width: 75%;
+      height: auto;
+      border-radius: 20px;
+    }
+    /* For Tablet View */
+    @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+      .startedimage {
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        height: auto;
+        border-radius: 20px;
+      }
+    }
+
+    /* For Mobile Portrait View */
+    @media screen and (max-device-width: 480px) and (orientation: portrait) {
+      .startedimage {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        height: auto;
+        border-radius: 20px;
+      }
+    }
+    .startedheading {
+      font-size: 34;
+      font-weight: bold;
+      text-align: left;
+      margin-top: 50px;
+      color: black;
+    }
+
+    /* For Tablet View */
+    @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+      .startedheading {
+        font-size: 34;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 40px;
+        color: black;
+      }
+    }
+
+    /* For Mobile Portrait View */
+    @media screen and (max-device-width: 480px) and (orientation: portrait) {
+      .startedheading {
+        font-size: 34;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 40px;
+        color: black;
+      }
+    }
+
+    .startedcontent {
+      font-size: 17;
+      margin-top: 10px;
+      text-align: left;
+      color: black;
+    }
+
+    /* For Tablet View */
+    @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+      .startedcontent {
+        font-size: 1rem;
+        margin-top: 10px;
+        text-align: center;
+        color: black;
+      }
+    }
+
+    /* For Mobile Portrait View */
+    @media screen and (max-device-width: 480px) and (orientation: portrait) {
+      .startedcontent {
+        font-size: 1rem;
+        margin-top: 10px;
+        text-align: center;
+        color: black;
+      }
+    }
+    .stylediv {
+      margin-top: 100px;
+      margin-bottom: 100px;
+      padding: 10px;
+      border-radius: 20px;
+      background-color: lightblue;
+      color: black;
+    }
+  }
+
+  .missioncontainer {
+    .missionimage {
+      border-radius: 20px;
+      width: 65%;
+    }
+    /* For Tablet View */
+    @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+      .missionimage {
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        width: 70%;
+        height: 70%;
+        margin-bottom: 20px;
+      }
+    }
+
+    /* For Mobile Portrait View */
+    @media screen and (max-device-width: 480px) and (orientation: portrait) {
+      .missionimage {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        height: auto;
+        border-radius: 20px;
+        margin-bottom: 20px;
+      }
+    }
+
+    .visionimage {
+      border-radius: 20px;
+      width: 85%;
+    }
+
+    /* For Tablet View */
+    @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+      .visionimage {
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        width: 75%;
+        margin-bottom: 20px;
+      }
+    }
+
+    /* For Mobile Portrait View */
+    @media screen and (max-device-width: 480px) and (orientation: portrait) {
+      .visionimage {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        height: auto;
+        border-radius: 20px;
+        margin-bottom: 20px;
+      }
+    }
+
+    /* For Tablet View */
+    @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+      .visionheading {
+        text-align: center;
+      }
+    }
+
+    /* For Mobile Portrait View */
+    @media screen and (max-device-width: 480px) and (orientation: portrait) {
+      .visionheading {
+        text-align: center;
+      }
+    }
+  }
+}
