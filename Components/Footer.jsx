@@ -13,7 +13,7 @@ const Footer = () => {
           <Grid container>
             <Grid item lg={12} xs={12}>
               <Typography
-                variant="h2"
+                variant="h3"
                 fontWeight="bold"
                 color="white"
                 align="center"
@@ -46,10 +46,10 @@ const Footer = () => {
                   color="white"
                   sx={{ textAlign: { md: "center", lg: "left", xs: "center" } }}
                 >
-                  Zotech Solution Pvt. Ltd. is highly committed to deliver
-                  services that are excellent in quality & cost-effective. We
-                  strive to lead global IT market by powerful tech methodologies
-                  to create outstanding products.
+                  Zotech Pvt. Ltd. is highly committed to deliver services that
+                  are excellent in quality & cost-effective. We strive to lead
+                  global IT market by powerful tech methodologies to create
+                  outstanding products.
                 </Typography>
               </Grid>
               <Grid item lg={3} xs={12}>
@@ -64,7 +64,7 @@ const Footer = () => {
                   Corporate Office
                 </Typography>
                 <Typography color="white">
-                  319, Prime shoppers, Vesu, Surat,Gujarat 394518
+                  319, Prime Shoppers, Vesu, Surat,Gujarat 394518
                 </Typography>
               </Grid>
               <Grid item lg={3} xs={12}>
@@ -119,7 +119,7 @@ const Footer = () => {
             }}
           >
             <Typography sx={{ marginBottom: "10px" }}>
-              © 2020-2022 Zotech PVT. All rights reserved
+              © 2021 Zotech - All Rights Reserved
             </Typography>
           </Box>
         </Container>

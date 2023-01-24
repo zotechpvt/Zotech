@@ -9,7 +9,7 @@ import {
 import { Box, Container } from "@mui/system";
 import { careerContent, cardCareer, careerPerk } from "../Static/Utils";
 import React, { useEffect } from "react";
-import EmpForm from "../Components/Empform";
+import EmpForm from "../Components/EmpForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -163,7 +163,7 @@ const Career = () => {
           the place for you!
         </Typography>
         <Typography variant="h6" align="left" mt={5} data-aos="fade-up">
-          7 REMARKABLE REASONS to Join ELaunch Solution Pvt. Ltd.
+          7 REMARKABLE REASONS to Join Zotech Pvt. Ltd.
         </Typography>
         {careerPerk.map((e, index) => {
           return (

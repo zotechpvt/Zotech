@@ -6,7 +6,7 @@ import {
   TextField,
   Typography,
 } from "@mui/material";
-import { bgcolor, Container } from "@mui/system";
+import { Container } from "@mui/system";
 import React, { useEffect, useState } from "react";
 import { toast } from "react-toastify";
 import { Storage } from "../firebase/Firebase";
@@ -27,14 +27,16 @@ const EmpForm = (props) => {
   //validaton
   const validate = (values) => {
     const errors = {};
-    const regex = /^[^\s@]+@[^\s@]=\.[^\s@]{2,}$/i;
-    const regexNumber = /\b([0-9]|10)\b /;
+    // const regex = /^[^\s@]+@[^\s@]=\.[^\s@]{2,}$/i;
+    const regex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
+    // const regexNumber = /\b([0-9]|10)\b /;
+    const regexNumber = /^(\+\d{1,3}[- ]?)?\d{10}$/;
     if (!values.Name) {
       errors.Name = "*Name is required";
     }
     if (!values.Email) {
-      errors.Email = "*email is required";
-    } else if (!regex.test(values.email)) {
+      errors.Email = "*Email is required";
+    } else if (!regex.test(values.Email)) {
       errors.Email = "This is not the valid email format";
     }
     if (!values.Number) {
@@ -44,6 +46,9 @@ const EmpForm = (props) => {
     }
     if (!values.Message) {
       errors.Message = "*Introduction is required";
+    }
+    if (fileUpload === null) {
+      errors.fileUpload = "*File is required";
     }
     return errors;
   };
@@ -105,7 +110,7 @@ const EmpForm = (props) => {
     const fileRef = ref(Storage, `files/${fileUpload.name + v4()}`); //file uploading function
     uploadBytes(fileRef, fileUpload).then(() => {
       //  event.target.reset();
-      setFileUpload("");
+      // setFileUpload("");
     });
   };
 
@@ -215,35 +220,52 @@ const EmpForm = (props) => {
                 {formErrors.Message}
               </Typography>
 
-              <Button
-                onClick={handleClick}
+              <Grid
+                item
+                xs={12}
+                sm={12}
+                mt={2}
                 sx={{
-                  backgroundColor: "black",
-                  color: "white",
-                  cursor: "pointer",
-                  marginTop: "10px",
-                  "&:hover": {
-                    backgroundColor: "black",
-                    color: "#fff",
-                  },
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
                 }}
               >
-                Upload a file
-              </Button>
-
-              <Grid item xs={12} md={4} sm={6} mt={2}>
+                <Button
+                  onClick={handleClick}
+                  sx={{
+                    backgroundColor: "black",
+                    color: "white",
+                    cursor: "pointer",
+                    width: "200px",
+                    height: "35px",
+                    marginTop: "10px",
+                    "&:hover": {
+                      backgroundColor: "black",
+                      color: "#fff",
+                    },
+                  }}
+                >
+                  Upload a file
+                </Button>
                 <Container>
                   <Typography>{fileUpload?.name}</Typography>
                 </Container>
               </Grid>
+              <Typography style={{ color: "red", fontWeight: "bold" }}>
+                {formErrors.fileUpload}
+              </Typography>
 
-              <input
-                type="file"
-                ref={hiddenFileInput}
-                onChange={handleChange}
-                accept=".pdf,.doc,.docx,.xml,"
-                style={{ display: "none" }}
-              />
+              <Grid item xs={12} md={4} sm={6} mt={2}>
+                <input
+                  type="file"
+                  ref={hiddenFileInput}
+                  onChange={handleChange}
+                  accept=".pdf,.doc,.docx,.xml,"
+                  style={{ display: "none" }}
+                />
+              </Grid>
+
               <Grid item xs={12} sm={12} mt={2}>
                 <Button
                   size="large"

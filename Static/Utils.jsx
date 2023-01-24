@@ -52,7 +52,7 @@ export const elements = [
 
 export const careerContent = [
   {
-    text: "At ELaunch Solution, our professionally skilled teams are the foundation of our organization. With our 12+ years of experience backed with an 80+ mindful team, we offer proficient software development services globally. Our organizational strength lies in giving the best efforts that not only brings exposure to working on international projects but also the team work we do together.",
+    text: "At Zotech PVT, our professionally skilled teams are the foundation of our organization. With our 12+ years of experience backed with an 80+ mindful team, we offer proficient software development services globally. Our organizational strength lies in giving the best efforts that not only brings exposure to working on international projects but also the team work we do together.",
   },
   {
     text: "We believe in keeping a transparent approach for all the employees.",
@@ -80,19 +80,19 @@ export const cardCareer = [
     imgsrc: "/assets/n.png",
     position: "Node.Js Developer",
     location: "Surat",
-    experience: "0.6 - 3+ Years",
+    experience: "3.0 + Years",
   },
   {
     imgsrc: "/assets/r.png",
     position: "React.js Developer",
     location: "Surat",
-    experience: "0.6 - 3+ Years",
+    experience: "3.0 + Years",
   },
   {
     imgsrc: "/assets/mern.jpg",
     position: "MERN stack Developer",
     location: "Surat",
-    experience: "0.6 - 3+ Years",
+    experience: "3.0 + Years",
   },
 ];
 

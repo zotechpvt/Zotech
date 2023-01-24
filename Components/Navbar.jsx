@@ -86,9 +86,12 @@ export default function Navbar() {
               }}
             >
               {navbar.map((e, index) => (
-                <Link href={e.path} style={{ textDecoration: "none" }}>
+                <Link
+                  href={e.path}
+                  style={{ textDecoration: "none" }}
+                  key={index}
+                >
                   <Button
-                    key={index}
                     sx={{
                       marginLeft: "10px",
                       color: "white",

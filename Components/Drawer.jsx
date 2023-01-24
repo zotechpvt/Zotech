@@ -13,7 +13,7 @@ import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import CloseIcon from "@mui/icons-material/Close";
 import React from "react";
-import { navbar } from "../Static/utils";
+import { navbar } from "../Static/Utils";
 
 const Drawer1 = ({ open, setOpen }) => {
   const theme = useTheme();

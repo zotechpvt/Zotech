@@ -94,24 +94,11 @@ const About = () => {
               component="img"
               data-aos="zoom-in"
               className="startedimage"
-              // sx={{ marginLeft: { lg: "100px" } }}
               src="/assets/grew.jpg"
             />
           </Grid>
         </Grid>
-        <p
-          align="center"
-          className="stylediv"
-          // style={{
-          //   marginTop: "100px",
-          //   marginBottom: "100px",
-          //   padding: "10px",
-          //   borderRadius: "10px",
-          //   backgroundColor: "lightblue",
-          //   color: "black",
-          // }}
-          data-aos="zoom-out"
-        >
+        <p align="center" className="stylediv" data-aos="zoom-out">
           We believe that passion and enthusiasm driven work inherits quality
           and stability all by itself. Rest assured, your project is in good
           hands and it will be delivered with the quality and ease that you
@@ -120,12 +107,13 @@ const About = () => {
       </Container>
 
       <Container className="missioncontainer">
-        <Grid container mt={5} spacing={1}>
-          <Grid item lg={6} sm={12} data-aos="fade-up">
+        <Grid container spacing={1}>
+          <Grid item lg={6} sm={12} mt={5} data-aos="fade-up">
             <Box
               component="img"
               className="missionimage"
-              src="/assets/mission.jpg"
+              // src="/assets/mission.jpg"
+              src="https://static.imoney.my/articles/wp-content/uploads/2022/06/03193648/sme-business-loan-800x419.jpg"
             />
 
             <Typography
@@ -142,7 +130,7 @@ const About = () => {
             >
               Stay Ahead Of The Technology Curve!
             </Typography>
-            <Typography variant="body1">
+            <Typography variant="body1" className="missiontext">
               Innovate and strive towards providing expert solution by
               incorporating all the latest technologies to provide cost
               effective IT solutions. We Envision to empower the society through
@@ -150,11 +138,10 @@ const About = () => {
               solutions which keep our clients at the pinnacle of growth.
             </Typography>
           </Grid>
-          <Grid item lg={6} sm={12}>
+          <Grid item lg={6} sm={12} mt={5} data-aos="fade-up">
             <Box
               component="img"
-              className="visionimage"
-              data-aos="fade-up"
+              className="missionimage"
               src="/assets/vision.jpg"
             />
 
@@ -172,13 +159,13 @@ const About = () => {
             >
               Achieve 100% Customer Satisfaction!
             </Typography>
-            <Typography variant="body1">
+            <Typography variant="body1" className="missiontext">
               Our attention to detail and quality is unmatched in the industry.
               We’re not just a resource provider. We value our customers’
               success as much as our own – sharing development risk, so that
               they can be bold in their adoption of new technologies.
             </Typography>
-            <Typography variant="body1" mt={1}>
+            <Typography variant="body1" mt={1} className="missiontext">
               Our core values play an important part in who we are as a company.
               We aim to achieve 100% customer satisfaction whilst providing IT
               services adhering to the highest security and practices quality.
@@ -193,7 +180,7 @@ const About = () => {
         <Typography
           variant="h3"
           align="center"
-          sx={{ marginTop: "50px", fontWeight: "bold" }}
+          sx={{ marginTop: "100px", fontWeight: "bold" }}
           data-aos="fade-up"
         >
           Why choose Us.
@@ -212,7 +199,7 @@ const About = () => {
             item
             lg={6}
             sm={12}
-            sx={{ marginTop: "10px" }}
+            sx={{ marginTop: "40px" }}
             data-aos="fade-up"
           >
             <Typography variant="body1">
@@ -221,8 +208,6 @@ const About = () => {
               them the exact solution of their deep-rooted problems is our key
               asset. We are pioneers in understanding the specific requirements
               of businesses and provide tailor-made cost effective solutions.
-              Innovative customer centric processes and proactive strategies
-              have helped us earn the trust and respect in the technology world.
             </Typography>
             <Box
               component="img"
