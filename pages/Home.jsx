@@ -21,7 +21,7 @@ const Home1 = () => {
             Creative Business.
           </Typography>
           <Typography variant="body1" className="headingtext">
-            "We Mak Sure Best Business Solution For Our Client"
+            "We Make Sure Best Business Solution For Our Client"
           </Typography>
           <Button
             href="/ContactUs"

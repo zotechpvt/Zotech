@@ -44,7 +44,7 @@ export const elements = [
     imgSrc: "/assets/ecommarce.jpg",
     heading: "Ecommerce Development",
     details:
-      "We building powerful feature-rich mobile apps. We create mobile solutions for iPhone, Android, and other platforms. Our focus on workforce automation helps our client's business.",
+      "We offer custom Ecommerce advancement arrangements according to the customers' prerequisites and spending plan. We make eye appealing and alluring Ecommerce sites for you which are not difficult to explore and easy to understand as well.",
   },
 ];
 

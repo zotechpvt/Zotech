@@ -129,36 +129,34 @@
   }
 
   .missioncontainer {
+    .datacontainer{
+      display: flex;
+      align-items: center;
+      text-align: left;
+      flex-direction: column;
+    }
     .missionimage {
       border-radius: 20px;
-      width: 65%;
-      height: 50%;
-    }
-    .missiontext{
       width: 500px;
-      
+      height: 300px;
+    }
+    .missiontext {
+      width: 500px;
     }
     /* For Tablet View */
     @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-      .missiontext{
-      width: 100%;
-      
-    }
+      .missiontext {
+        width: 100%;
+      }
     }
 
     /* For Mobile Portrait View */
     @media screen and (max-device-width: 480px) and (orientation: portrait) {
-       .missiontext{
-      width: 100%;
-      
-    }
+      .missiontext {
+        width: 100%;
+      }
     }
 
-      .missionimage {
-        width: 500px;
-        height: 300px;
-      }
-      
     /* For Tablet View */
     @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
       .missionimage {
