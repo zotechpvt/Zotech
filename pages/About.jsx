@@ -227,7 +227,7 @@ const About = () => {
           >
             <Typography variant="body1">
               We are providing world class services to the clients,
-              understanding the client's problem from their perspective giving
+              understanding the clients problem from their perspective giving
               them the exact solution of their deep-rooted problems is our key
               asset. We are pioneers in understanding the specific requirements
               of businesses and provide tailor-made cost effective solutions.
