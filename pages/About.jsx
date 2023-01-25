@@ -55,11 +55,11 @@ const About = () => {
             <Typography variant="body1" className="startedcontent">
               Zotech Solution Pvt. Ltd. is one of the most trusted Software
               development companies of India today. With a futuristic vision to
-              grow in the tech industry, this company passionately in 2012 with
-              a small team of employees providing web designing as primary
+              grow in the tech industry, this company passionately in 2021 with
+              a small team of employees providing web developing as primary
               service. With their untiring energy and allegiance towards the
               work, in a couple of years, the company witnessed a roaring
-              success and growth. We have now grown to a workforce of over 80+
+              success and growth. We have now grown to a workforce of
               action-driven team members and offering a wide range of services
               such as Mobile Application Development (Android & iOS), Website
               Development (Custom, ECommerce, etc.), Custom Software
@@ -77,8 +77,8 @@ const About = () => {
               How We Grew
             </Typography>
             <Typography variant="body1" className="startedcontent">
-              Our company grew leaps and bounds with over 1250+ successful
-              projects till date. For more than a decade, we have been
+              Our company grew leaps and bounds with over 5+ successful
+              projects till date. we have been
               delivering software development solutions and empowering
               businesses around the world to enrich human lives with tech
               utility by reaching tech business goals year over year. We take

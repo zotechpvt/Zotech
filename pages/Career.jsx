@@ -149,7 +149,7 @@ const Career = () => {
           sx={{ marginTop: "50px" }}
           data-aos="fade-up"
         >
-          PERKS OF JOINING ELSPARTANS
+          PERKS OF JOINING 
         </Typography>
         <Typography variant="body1" align="left" mt={4} data-aos="fade-up">
           Yes, work is important and so is work-life balance! When one can

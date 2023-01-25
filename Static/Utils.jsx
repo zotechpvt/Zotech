@@ -52,7 +52,7 @@ export const elements = [
 
 export const careerContent = [
   {
-    text: "At Zotech PVT, our professionally skilled teams are the foundation of our organization. With our 12+ years of experience backed with an 80+ mindful team, we offer proficient software development services globally. Our organizational strength lies in giving the best efforts that not only brings exposure to working on international projects but also the team work we do together.",
+    text: "At Zotech PVT LTD, our professionally skilled teams are the foundation of our organization. With our experienced mindful team, we offer proficient software development services globally. Our organizational strength lies in giving the best efforts that not only brings exposure to working on international projects but also the team work we do together.",
   },
   {
     text: "We believe in keeping a transparent approach for all the employees.",
@@ -61,7 +61,7 @@ export const careerContent = [
     text: "We Discuss, We Explore, We Photograph, We Work, We Create, We Play.",
   },
   {
-    text: "We Grind Together, We Support Each Other, We Work Together, We Fail Sometimes, But Survive Together.",
+    text: "We Grow Together, We Support Each Other, We Work Together, We Fail Sometimes, But Survive Together.",
   },
   {
     text: "When We Travel Along, We recharge ourselves, We build stronger bonds, and better understandings!",
@@ -102,28 +102,28 @@ export const cardCareer = [
 
 export const careerPerk = [
   {
-    text: "1. Join a Team of 80+ #elspartans",
+    text: "1. Join a Team of skilled Developers.",
   },
   {
-    text: "2. Leadership Opportunities",
+    text: "2. Leadership Opportunities.",
   },
   {
-    text: "3. 5 Days working week",
+    text: "3. 5 Days working week.",
   },
   {
-    text: "4. Flexible Working Hours",
+    text: "4. Flexible Working Hours.",
   },
   {
-    text: "5. Regular Employee Refreshment Activities",
+    text: "5. Regular Employee Refreshment Activities.",
   },
   {
-    text: "6. Direct Exposure to Global Clients",
+    text: "6. Direct Exposure to Global Clients.",
   },
   {
-    text: "7. No Boring Projects, Interesting Projects, Amazing Experience",
+    text: "7. No Boring Projects, Interesting Projects, Amazing Experience.",
   },
   {
-    text: "Reboot your career with us. Join Us, Together Let’s Become a Team of 150+ Strong ELSPARTANS.",
+    text: "Reboot your career with us. Join Us, Together Let’s  Become a Strong Team",
   },
   {
     text: "info@zotech.in",

@@ -86,7 +86,7 @@ const Contactus = () => {
             <Typography variant="body1" display="flex" mt={5}>
               <LocationOnIcon />
               <span style={{ marginLeft: "10px" }}>
-                319, Prime Shoppers, Vesu, Surat,Gujarat 394518
+                319, Prime Shoppers, Vesu, Surat,Gujarat 395007
               </span>
             </Typography>
             <Typography variant="body1" display="flex" mt={5}>
@@ -100,7 +100,7 @@ const Contactus = () => {
           </Grid>
         </Grid>
       </Container>
-      <Box sx={{marginTop:"60px"}}>
+      <Box sx={{ marginTop: "60px" }}>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.1143380763037!2d72.76382171485646!3d21.147847585934027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04d52f109ff77%3A0x4e31edf2a8b2318b!2sPrime%20shoppers!5e0!3m2!1sen!2sin!4v1671450794567!5m2!1sen!2sin"
           width="100%"
@@ -111,9 +111,6 @@ const Contactus = () => {
           referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
       </Box>
-      
-     
-      
     </>
   );
 };

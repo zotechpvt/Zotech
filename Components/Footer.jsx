@@ -64,7 +64,7 @@ const Footer = () => {
                   Corporate Office
                 </Typography>
                 <Typography color="white">
-                  319, Prime Shoppers, Vesu, Surat,Gujarat 394518
+                  319, Prime Shoppers, Vesu, Surat,Gujarat 395007
                 </Typography>
               </Grid>
               <Grid item lg={3} xs={12}>

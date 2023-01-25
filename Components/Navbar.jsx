@@ -1,3 +1,4 @@
+
 import * as React from "react";
 import { useState, useEffect } from "react";
 import AppBar from "@mui/material/AppBar";
@@ -64,20 +65,19 @@ export default function Navbar() {
             >
               <MenuIcon />
             </IconButton>
-            <Typography
-              variant="h4"
-              sx={{
-                textDecoration: "none",
-                color: "white",
-                display: "flex",
-                textAlign: "center",
-                justifyContent: "center",
-                margin: "10px",
-              }}
-            >
-              Zotech
-            </Typography>
-
+              <Typography
+                variant="h4"
+                sx={{
+                  textDecoration: "none",
+                  color: "white",
+                  display: "flex",
+                  textAlign: "center",
+                  justifyContent: "center",
+                  margin: "10px",
+                }}
+              >
+                Zotech
+              </Typography>
             <Box
               component="div"
               sx={{
