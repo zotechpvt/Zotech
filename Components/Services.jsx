@@ -4,7 +4,6 @@ import React from "react";
 import { elements } from "../Static/Utils";
 
 const Services = () => {
-  console.log(elements);
   return (
     <Container align="center" className="servicecontainer">
       <Typography variant="h3" className="headingtext" mt={3}>

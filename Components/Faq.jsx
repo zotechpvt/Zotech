@@ -7,8 +7,6 @@ const Faq = () => {
   const [show, setShow] = useState(false);
   const [indexItem, setIndexItem] = useState(0);
 
-  console.log(FAQ);
-
   return (
     <>
       <Grid container className="faqcontainer">

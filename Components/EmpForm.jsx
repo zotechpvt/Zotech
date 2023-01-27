@@ -27,9 +27,7 @@ const EmpForm = (props) => {
   //validaton
   const validate = (values) => {
     const errors = {};
-    // const regex = /^[^\s@]+@[^\s@]=\.[^\s@]{2,}$/i;
     const regex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
-    // const regexNumber = /\b([0-9]|10)\b /;
     const regexNumber = /^(\+\d{1,3}[- ]?)?\d{10}$/;
     if (!values.Name) {
       errors.Name = "*Name is required";
@@ -54,9 +52,7 @@ const EmpForm = (props) => {
   };
 
   useEffect(() => {
-    console.log(formErrors);
     if (Object.keys(formErrors).length === 0 && isSubmit) {
-      console.log(UserData);
     }
   }, [formErrors]);
 
@@ -124,7 +120,6 @@ const EmpForm = (props) => {
   const handleChange = (event) => {
     setFileUpload(event.target.files[0]);
   };
-  console.log(fileUpload);
 
   return (
     <div>
@@ -238,7 +233,7 @@ const EmpForm = (props) => {
                     color: "white",
                     cursor: "pointer",
                     width: "200px",
-                    height: "35px",
+                    height: "auto",
                     marginTop: "10px",
                     "&:hover": {
                       backgroundColor: "black",
