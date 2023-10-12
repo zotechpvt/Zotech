@@ -5,7 +5,7 @@ import { elements } from "../Static/Utils";
 
 const Services = () => {
   return (
-    <Container align="center" className="servicecontainer">
+    <Container align="center" className="servicecontainer" sx={{paddingY:"50px"}}>
       <Typography variant="h3" className="headingtext" mt={3}>
         We provide exclusive services
       </Typography>
@@ -25,6 +25,7 @@ const Services = () => {
                 key={index}
                 sx={{
                   display: "flex",
+                  paddingY:"30px",
                   flexDirection: {
                     lg: "row",
                     sm: "column-reverse",

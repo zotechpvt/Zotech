@@ -1,4 +1,3 @@
-
 import * as React from "react";
 import { useState, useEffect } from "react";
 import AppBar from "@mui/material/AppBar";
@@ -10,9 +9,7 @@ import Button from "@mui/material/Button";
 import { Container } from "@mui/system";
 import Drawer1 from "./Drawer";
 import { navbar } from "../Static/Utils";
-import { List, ListItemText, Typography } from "@mui/material";
 import Link from "next/link";
-
 export default function Navbar() {
   const [color, setColor] = useState(false);
   const [open, setOpen] = useState(false);
@@ -42,7 +39,7 @@ export default function Navbar() {
   }, []);
 
   return (
-    <>
+    <div>
       <Drawer1 open={open} setOpen={setOpen} />
 
       <AppBar
@@ -50,12 +47,18 @@ export default function Navbar() {
         id="nav"
         sx={{
           backgroundColor: color ? "#1c1c1c" : "transparent",
-          height: "60px",
+
           boxShadow: "none",
+          display: "flex",
+          justifyContent: "center",
+          justifyItems: "center",
+          padding: "10px",
         }}
       >
         <Container>
-          <Toolbar>
+          <Toolbar
+            sx={{ justifyItems: "center", justifyContent: "space-between" }}
+          >
             <IconButton
               color="inherit"
               aria-label="open drawer"
@@ -65,21 +68,15 @@ export default function Navbar() {
             >
               <MenuIcon />
             </IconButton>
-              <Typography
-                variant="h4"
-                sx={{
-                  textDecoration: "none",
-                  color: "white",
-                  display: "flex",
-                  textAlign: "center",
-                  justifyContent: "center",
-                  margin: "10px",
-                }}
-              >
-                Zotech
-              </Typography>
+            <Box>
+              <img
+                src="/assets/Zotech - Logo - Horizontal - White with Transparent BG.png"
+                width={130}
+                height={50}
+              />
+            </Box>
+
             <Box
-              component="div"
               sx={{
                 display: { xs: "none", sm: "block" },
                 marginLeft: "auto",
@@ -110,6 +107,6 @@ export default function Navbar() {
           </Toolbar>
         </Container>
       </AppBar>
-    </>
+    </div>
   );
 }

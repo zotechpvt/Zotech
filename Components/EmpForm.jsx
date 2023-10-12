@@ -1,4 +1,5 @@
 import {
+  Box,
   Button,
   Card,
   CardContent,
@@ -122,13 +123,12 @@ const EmpForm = (props) => {
   };
 
   return (
-    <div>
-      <Container sx={{ marginTop: "100px" }} id="form">
+    <Box>
+      <Container sx={{ paddingY: "50px" }} id="form">
         <Typography
           variant="h3"
           color="black"
           align="center"
-          sx={{ paddingTop: "100px" }}
           data-aos="zoom-out"
         >
           Apply Now
@@ -140,7 +140,7 @@ const EmpForm = (props) => {
           marginTop: "50px",
           width: "70%",
           padding: "10px",
-          border: "3px solid #1c1c1c",
+          border: "1px solid #1c1c1c",
         }}
       >
         <CardContent>
@@ -286,7 +286,7 @@ const EmpForm = (props) => {
           </form>
         </CardContent>
       </Card>
-    </div>
+    </Box>
   );
 };
 

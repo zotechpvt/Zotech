@@ -10,6 +10,7 @@ import "../styles/Aboutus.scss";
 import "../styles/Career.scss";
 import "../styles/Contactus.scss";
 import "../styles/Faq.scss";
+import { DefaultSeo } from 'next-seo';
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -17,7 +18,6 @@ export default function App({ Component, pageProps }: AppProps) {
       <MainLayout>
         <Navbar />
         {/* <Header /> */}
-
         <Component {...pageProps} />
         <Footer />
       </MainLayout>

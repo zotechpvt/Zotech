@@ -25,11 +25,38 @@
     .contentheading1 {
       font-weight: bold;
       font-size: 3rem;
+      display: flex;
+      justify-content: center;
+      font-family: serif;
+
+      @media screen and (max-width: 480px) and (orientation: portrait) {
+        font-weight: bold;
+        font-size: 2rem;
+        display: flex;
+        justify-content: center;
+        font-family: serif;
+        text-align: center;
+      }
     }
+
 
     .contentheading2 {
       font-weight: bold;
-      font-size: 2rem;
+      font-size: 1.7rem;
+      display: flex;
+      justify-content: center;
+      font-family: serif;
+
+      @media screen and (max-width: 480px) and (orientation: portrait) {
+        font-weight: bold;
+        font-size: 1.2rem;
+        display: flex;
+        justify-content: center;
+        font-family: serif;
+        text-align: center;
+        padding-top: 25px;
+
+      }
     }
   }
 
@@ -84,7 +111,7 @@
     /* For Mobile Portrait View */
     @media screen and (max-device-width: 480px) and (orientation: portrait) {
       .startedheading {
-        font-size: 34;
+        font-size: 20;
         font-weight: bold;
         text-align: center;
         margin-top: 40px;
@@ -129,7 +156,7 @@
   }
 
   .missioncontainer {
-    .datacontainer{
+    .datacontainer {
       display: flex;
       align-items: center;
       text-align: left;

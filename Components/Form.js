@@ -1,23 +1,21 @@
 import { Button, Card, CardContent, Grid, TextField } from "@mui/material";
-import { bgcolor } from "@mui/system";
 import React from "react";
 
 const Form = () => {
   return (
-    <div>
       <Card
         sx={{
-          marginTop: "50px",
-          width: "100%",
+          marginTop:"50px",
+          width: "80%",
+          padding:"15px",
           borderRadius: "10px",
-          boxShadow: "5px 5px 5px 15px #888888",
-          // border: "3px solid #1c1c1c",
+          boxShadow: "5px 5px 5px 5px #888888",
         }}
       >
-        <CardContent>
+        <CardContent >
           <form action="https://formspree.io/f/xknawrad" method="POST">
-            <Grid container>
-              <Grid item xs={12} sm={12}>
+            <Grid container >
+              <Grid item xs={12} sm={12} >
                 <TextField
                   label="Name"
                   name="Name"
@@ -75,7 +73,6 @@ const Form = () => {
           </form>
         </CardContent>
       </Card>
-    </div>
   );
 };
 

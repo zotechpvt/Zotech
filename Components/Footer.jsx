@@ -12,18 +12,22 @@ const Footer = () => {
         <Container>
           <Grid container>
             <Grid item lg={12} xs={12}>
-              <Typography
-                variant="h3"
+              <Box
                 fontWeight="bold"
-                color="white"
                 align="center"
                 display="flex"
                 justifyContent="center"
                 margin="auto"
                 paddingTop="30px"
               >
-                Zotech
-              </Typography>
+                <Box>
+                  <img
+                    src="/assets/Zotech - Logo - Horizontal - White with Transparent BG.png"
+                    width={130}
+                    height={50}
+                  />
+                </Box>
+              </Box>
             </Grid>
           </Grid>
         </Container>
@@ -38,6 +42,7 @@ const Footer = () => {
                   sx={{
                     textAlign: { md: "center", lg: "left", xs: "center" },
                     fontWeight: "bold",
+                    marginTop:"20px"
                   }}
                 >
                   About Us
@@ -64,8 +69,12 @@ const Footer = () => {
                   Corporate Office
                 </Typography>
                 <Typography color="white">
-                  319, Prime Shoppers, Vesu, Surat,Gujarat 395007
+                  319, Prime Shoppers, Vesu, Surat,Gujarat,India
                 </Typography>
+                <Typography color="white">
+                  Pin Code : 395007
+                </Typography>
+
               </Grid>
               <Grid item lg={3} xs={12}>
                 <Typography

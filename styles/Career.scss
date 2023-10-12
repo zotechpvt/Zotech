@@ -1,5 +1,12 @@
 .career {
   overflow: hidden;
+  .left-align {
+  text-align: left;
+}
+
+.right-align {
+  text-align: right;
+}
   .careerbackground {
     display: flex;
     align-items: center;
@@ -25,11 +32,35 @@
     .contentheading1 {
       font-weight: bold;
       font-size: 3rem;
-    }
+      display: flex;
+      justify-content: center;
+      font-family: serif;
 
+      @media screen and (max-width: 480px) and (orientation: portrait) {
+        font-weight: bold;
+        font-size: 2rem;
+        display: flex;
+        justify-content: center;
+        font-family: serif;
+        text-align: center;
+      }
+    }
     .contentheading2 {
       font-weight: bold;
-      font-size: 2rem;
+      font-size: 1.7rem;
+      display: flex;
+      justify-content: center;
+
+      @media screen and (max-width: 480px) and (orientation: portrait) {
+        font-weight: bold;
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+        font-family: serif;
+        text-align: center;
+        padding-top: 50px;
+      }
     }
+
   }
 }
