@@ -125,7 +125,7 @@ const Footer = () => {
             }}
           >
             <Typography sx={{ marginBottom: "10px" }}>
-              © 2022 Zotech - All Rights Reserved
+              © 2020 Zotech - All Rights Reserved
             </Typography>
           </Box>
         </Container>
