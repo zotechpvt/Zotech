@@ -14,7 +14,7 @@ const About = () => {
   }, []);
   return (
     <>
-     <SEO
+      <SEO
         title="About Us - Zotech"
         description="About us What we are doing"
         canonical="https://yourwebsite.com/page1"
@@ -29,7 +29,7 @@ const About = () => {
               All You Need to Know About Us
             </Typography>
             <Typography className="contentheading2">
-              We Converted Our Ideas into Reality with Powerful Technologies.
+              We Converted Our Ideas into Reality with Powerful Technologies With A Co working Space.
             </Typography>
           </Box>
         </Box>

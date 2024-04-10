@@ -22,9 +22,9 @@ export const navbar = [
 export const elements = [
   {
     imgSrc: "/assets/web.jpg",
-    heading: "Web Design & Developmnet",
+    heading: "Co working Space",
     details:
-      "A website is the identity of your Brand. We can help to create the online presence of your Business. Our websites are mobile & tablet friendly. It looks great on every device.",
+      "We offer coworking space to individuals from all walks of life, providing an inclusive environment for anyone seeking a productive workspace",
   },
   {
     imgSrc: "/assets/mobile.jpg",
@@ -52,7 +52,7 @@ export const elements = [
 
 export const careerContent = [
   {
-    text: "At Zotech PVT LTD, our professionally skilled teams are the foundation of our organization. With our experienced mindful team, we offer proficient software development services globally. Our organizational strength lies in giving the best efforts that not only brings exposure to working on international projects but also the team work we do together.",
+    text: "At Zotech PVT LTD, our professionally skilled teams are the foundation of our organization and Also provide Co-working Space With our experienced mindful team, we offer proficient software development services globally. Our organizational strength lies in giving the best efforts that not only brings exposure to working on international projects but also the team work we do together.",
   },
   {
     text: "We believe in keeping a transparent approach for all the employees.",

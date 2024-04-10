@@ -15,8 +15,8 @@ const Home1 = () => {
   }, []);
   return (
     <>
-   
-   <SEO
+
+      <SEO
         title="Home - Zotech"
         description="Zotech Home page"
         canonical="https://yourwebsite.com/Home"
@@ -35,11 +35,11 @@ const Home1 = () => {
             }}
           >
             <Typography className="contentheading1">
-              We Provide Creative Business.
+              We are Software & Co-Working Space Company.
             </Typography>
             <Typography variant="h1" className="contentheading2"></Typography>
             <Typography variant="body1" className="headingtext">
-              We Make Sure Best Business Solution For Our Client
+              We Make Sure Best Business Solution For Our Client & Customer
             </Typography>
           </Box>
           <Button

@@ -42,7 +42,7 @@ const Footer = () => {
                   sx={{
                     textAlign: { md: "center", lg: "left", xs: "center" },
                     fontWeight: "bold",
-                    marginTop:"20px"
+                    marginTop: "20px"
                   }}
                 >
                   About Us
@@ -51,10 +51,7 @@ const Footer = () => {
                   color="white"
                   sx={{ textAlign: { md: "center", lg: "left", xs: "center" } }}
                 >
-                  Zotech Pvt. Ltd. is highly committed to deliver services that
-                  are excellent in quality & cost-effective. We strive to lead
-                  global IT market by powerful tech methodologies to create
-                  outstanding products.
+                  At Zotech Pvt. Ltd., our unwavering commitment extends beyond delivering exceptional quality and cost-effective services. We're dedicated to providing top-tier coworking solutions tailored to individuals, alongside our pursuit to lead the global IT market through innovative tech methodologies, fostering the creation of outstanding products.
                 </Typography>
               </Grid>
               <Grid item lg={3} xs={12}>
@@ -96,7 +93,7 @@ const Footer = () => {
                     }}
                     href="tel: 9512596661"
                   >
-                    +91 9512596661
+                    +91 9512596662
                   </a>
                 </Typography>
                 <Typography color="white" mt={1}>

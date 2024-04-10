@@ -55,7 +55,7 @@ const Contactus = () => {
   }, []);
   return (
     <>
-   
+
       <Box component="div" className="contactbackground">
         <Box component="div" className="contentbox" data-aos="fade-right">
           <Typography className="contentheading1">
@@ -67,7 +67,7 @@ const Contactus = () => {
         </Box>
       </Box>
 
-      <Box sx={{paddingY:"60px"}}>
+      <Box sx={{ paddingY: "60px" }}>
         <Typography variant="h4" align="center" mt={5} data-aos="fade-up">
           We appreciate your impact!
         </Typography>
@@ -75,7 +75,7 @@ const Contactus = () => {
           Talk in details about your project with us.
         </Typography>
 
-        <Container sx={{paddingY:"30px"}}>
+        <Container sx={{ paddingY: "30px" }}>
           <Grid container >
             <Grid item lg={8} data-aos="zoom-in">
               <Form />
@@ -105,7 +105,7 @@ const Contactus = () => {
               </Typography>
               <Typography variant="h6" display="flex" mt={5}>
                 <PhoneIcon />
-                <span style={{ marginLeft: "10px" }}>+91 9512596661</span>
+                <span style={{ marginLeft: "10px" }}>+91 9512596662</span>
               </Typography>
               <Typography variant="h6" display="flex" mt={5}>
                 <EmailIcon />
